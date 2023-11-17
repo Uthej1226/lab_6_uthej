@@ -1,17 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <title>Vanilla JavaScript App</title>
+  <title>Multiplication</title>
+  <link rel="stylesheet" href="Lab_6_UJ.css">
+  <script src="Lab_6_UJ.js" defer></script>
 </head>
-
 <body>
-  <main>
-    <h1>Vanilla JavaScript App</h1>
-  </main>
-</body>
 
+  <header class="header">
+    <!-- Header content -->
+    <h1>Multiplication Calculator</h1>
+  </header>
+
+  <aside class="sidebar">
+    <!-- Sidebar content -->
+    <nav>
+      <ul>
+        <li><a href="#">Link 1</a></li>
+        <li><a href="#">Link 2</a></li>
+        <li><a href="#">Link 3</a></li>
+      </ul>
+    </nav>
+  </aside>
+
+  <main class="content">
+    <div class="calculator">
+      <h2>Multiplication</h2>
+      <input type="number" id="num1" placeholder="Enter first number">
+      <input type="number" id="num2" placeholder="Enter second number">
+      <button onclick="multiplyNumbers()">Multiply</button>
+      <p id="result">Result will appear here</p>
+    </div>
+  </main>
+
+  <div class="advertisement">
+    <!-- Advertisement content -->
+    <a href="https://www.amazon.com" target="_blank">
+      <img src="Multiplication.jpg" alt="Advertisement">
+    </a>
+  </div>
+
+  <footer class="footer">
+    <!-- Addendum -->
+    <p>
+      The JavaScript code here performs multiplication based on user input. 
+      The result appears when the 'Multiply' button is clicked.
+    </p>
+    <!-- Additional notes about the implementation -->
+  </footer>
+
+</body>
 </html>
